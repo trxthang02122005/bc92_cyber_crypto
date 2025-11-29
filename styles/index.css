@@ -1,0 +1,33 @@
+body {
+  background-color: #151937;
+  color: white;
+}
+
+.text-gradient {
+  background: linear-gradient(to right, red, blue);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-trading {
+  background: linear-gradient(to right, red, blue);
+  padding: 1rem 2rem;
+  color: white;
+  border-radius: 2rem;
+}
+
+.list > div {
+  background-color: #8080802e;
+  border-radius: 1rem;
+  border: none;
+}
+
+.flatform__content ul li button[aria-selected="true"] {
+  border-color: rebeccapurple;
+  color: rebeccapurple;
+}
+
+.flatform__content ul li button[aria-selected="false"] {
+  border-color: white;
+  color: gray;
+}
